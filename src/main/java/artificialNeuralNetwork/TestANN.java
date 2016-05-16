@@ -18,7 +18,7 @@ public class TestANN {
 				{ 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0 }, { 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0 },
 				{ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 }, { 1.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0 } };
 
-		// Corresponding output
+		// Corresponding output- The correct target digit is represented as a 1, and everything else in set is 0. 
 		double idealOutput[][] = { { 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 },
 				{ 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 },
 				{ 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 },
